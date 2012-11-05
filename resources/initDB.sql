@@ -6,21 +6,21 @@ DROP TABLE IF EXISTS ACCOUNT;
 
 CREATE TABLE CLIENT (
 	id INTEGER PRIMARY KEY AUTO_INCREMENT,
-	FIRSTNAME VARCHAR(15),
-	LASTNAME VARCHAR(20),
-	ADDRESS VARCHAR(50),
-	EMAIL VARCHAR(40),
-	AGE INTEGER
+	firstName VARCHAR(15),
+	lastName VARCHAR(20),
+	address VARCHAR(50),
+	email VARCHAR(40),
+	age INTEGER
 ); 
 
 CREATE TABLE ACCOUNT (
 	id VARCHAR(30),
-	TYPECARD VARCHAR(20),
-	CARTHOLDER VARCHAR(30),
-	EXPIRE DATETIME
+	typeCard VARCHAR(20),
+	cardHolder VARCHAR(30),
+	expire DATETIME
 );
 
-INSERT INTO CLIENT(FIRSTNAME, LASTNAME, ADDRESS, EMAIL, AGE) VALUES("Nguyen","Kim Thuat","5 bis, rue Ernest Calvat, 38000 Grenoble, France","nguyenki@ensimag.imag.fr","23");
-INSERT INTO CLIENT(FIRSTNAME, LASTNAME, ADDRESS, EMAIL, AGE) VALUES("Perter","Alex","23, rue Bizanet, 38400 Grenoble, France","alexC@ensimag.imag.fr","23");
-INSERT INTO CLIENT(FIRSTNAME, LASTNAME, ADDRESS, EMAIL, AGE) VALUES("Paul","Alex","6 rue Victor Hugo,38000 Grenoble, France","alexPas@ensimag.imag.fr","23");
-INSERT INTO CLIENT(FIRSTNAME, LASTNAME, ADDRESS, EMAIL, AGE) VALUES("Ronaldo","Oliver","5 bis, rue Saint Etienen, 38000 Grenoble, France","oliver@ensimag.imag.fr","23");
+INSERT INTO CLIENT(firstName, lastName, address, email, age) VALUES("Nguyen","Kim Thuat","5 bis, rue Ernest Calvat, 38000 Grenoble, France","nguyenki@ensimag.imag.fr","23");
+INSERT INTO CLIENT(firstName, lastName, address, email, age) VALUES("Perter","Alex","23, rue Bizanet, 38400 Grenoble, France","alexC@ensimag.imag.fr","23");
+INSERT INTO CLIENT(firstName, lastName, address, email, age) VALUES("Paul","Alex","6 rue Victor Hugo,38000 Grenoble, France","alexPas@ensimag.imag.fr","23");
+INSERT INTO CLIENT(firstName, lastName, address, email, age) VALUES("Ronaldo","Oliver","5 bis, rue Saint Etienen, 38000 Grenoble, France","oliver@ensimag.imag.fr","23");

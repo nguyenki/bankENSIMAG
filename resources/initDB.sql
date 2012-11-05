@@ -24,3 +24,4 @@ INSERT INTO CLIENT(firstName, lastName, address, email, age) VALUES("Nguyen","Ki
 INSERT INTO CLIENT(firstName, lastName, address, email, age) VALUES("Perter","Alex","23, rue Bizanet, 38400 Grenoble, France","alexC@ensimag.imag.fr","23");
 INSERT INTO CLIENT(firstName, lastName, address, email, age) VALUES("Paul","Alex","6 rue Victor Hugo,38000 Grenoble, France","alexPas@ensimag.imag.fr","23");
 INSERT INTO CLIENT(firstName, lastName, address, email, age) VALUES("Ronaldo","Oliver","5 bis, rue Saint Etienen, 38000 Grenoble, France","oliver@ensimag.imag.fr","23");
+
